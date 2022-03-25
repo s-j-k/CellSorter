@@ -25,7 +25,11 @@
   cs.algorithm = 'umap';
 
   %% Update the data table and visualize results
+% need to find spike width and firing rate first
 
+
+
+%%
   % perform dimensionality reduction and clustering
   labels_sw = cs.kcluster(dataTable.spike_width);
   labels_fr = cs.kcluster(dataTable.firing_rate);
