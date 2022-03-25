@@ -30,6 +30,8 @@
 
 
 %%
+
+
   % perform dimensionality reduction and clustering
   labels_sw = cs.kcluster(dataTable.spike_width);
   labels_fr = cs.kcluster(dataTable.firing_rate);
