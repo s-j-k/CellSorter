@@ -16,8 +16,14 @@ for i = 1:nTraces
     plot(1:size(d_pre,2),cc(i,1:size(d_pre,2))+i*offset - offset)
 end
 ylim([-5 200])
-%%
-% now normalize the traces ? 
+%% now try sorting by spike rate
+
+for i = 1:nTraces
+    srate(i,
+
+% calculate spike rate for each cell in bins
+% then find the bin where the cell has the highest spike rate
+% sort by bin and plot traces
 
 
 %%
